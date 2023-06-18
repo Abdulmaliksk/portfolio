@@ -1,0 +1,290 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #27374D;
+}
+a i{
+    height: 50px;
+    width: 50px; 
+    background-color: #5cc5d8; 
+    border-radius: 50%; 
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+    transition: all .4s ease-in-out;
+    line-height: 50px;
+    text-align: center;
+
+}
+.icons i{
+    line-height: 50px;
+}
+i:hover{
+    transform: scale(1.4);
+    border: #172e3f;
+}
+.socials{
+    text-align: center;
+}
+
+.all{
+    background-color: #B9EDDD;
+}
+
+.home{
+    background-color: #B9EDDD;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-decoration: none;
+    background-color: #569DAA;
+}
+
+.sam{
+    color: #27374D;
+    font-size: 4vh;
+    font-weight: 700;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-left: 500px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 4vh;
+    color: #27374D;
+    font-weight: 700;
+    float: left;
+    padding: 5vh;
+}
+
+.mypic{
+    height: 50vh;
+    width: 25vw;
+    border-radius: 50%;
+    float: right;
+    padding: 20px;
+    display: flex;
+    transition: 0.5s ;
+}
+
+.mypic:hover{
+   width: 30vw;
+   height: 60vh;
+   /* box-shadow: 0px 0px 10px #569DAA;  */
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 3vh;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #27374D;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15vh;
+}
+
+div h1, h2, h3{
+    text-align: center;
+    text-shadow: 5px 5px 3px #569DAA;
+}
+
+h1:hover{
+    font-size: 9vh;
+    background-color: #569DAA;
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+.social{
+    justify-content: center;
+    display: flex;
+}
+
+/* About Section */
+/* .about{
+    background-color: #B9EDDD;
+    height: 250vh;
+} */
+
+p{
+    font-size: 7vh;
+    background-color: #569DAA;
+    font-weight: 400px;
+    padding-left: 20px;
+}
+
+p1{
+    font-size: 5vh;
+    font-weight: 600;
+    display: block;
+    text-decoration: underline  1px;
+    text-align: center;
+}
+
+.mallareddy{
+    float: right;
+    height: 50vh;
+    width: 40vw;
+    /* padding: 12px; */
+    margin: 12px;
+}
+
+p2,p3{
+    font-size: 3.8vh;
+    display: block;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 0px 12px;
+}
+
+p4{
+    display: block;
+    /* float: right; */
+    font-size: 4vh;
+    margin-right: 80px;    
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.vmr{
+    float: right;
+    height: 57vh;
+    width: 40vw;
+    margin: 40px;
+}
+
+p7{
+    display: block;
+    /* float: right; */
+    font-size: 4vh;
+    margin-right: 220px;    
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: right;
+}
+
+p5,p6{
+    font-size: 3.8vh;
+    display: block;
+    text-align:justify;
+    text-indent: 50px;
+    padding: 0px 12px;
+}
+
+.items-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+
+}
+div.items-p figure{
+    width: 30%;
+    height: 500px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #DDE6ED ;
+}
+div.Projects{
+    height: 130vh;
+}
+h4{
+    color: #569DAA;
+    text-decoration: underline;
+}
+ div.items-p .vmrr{
+    height: 50%;
+    width: 100%;
+}
+
+
+.Contact-Me{
+    height: 110vh;
+    background-color:#B9EDDD;
+    padding: 40px 0;
+}
+.cntsec{
+    font-family: 'Cinzel', serif;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    background-color: #182230;
+    padding: 20px 20px;
+    color: #DDE6ED;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px #DDE6ED;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    margin-right: 220px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #182230;
+    color: #DDE6ED;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 5px;
+    transition: .5s;
+}
+.contact-form-btn:hover{
+    transform: scale(1.1);
+    
+}
+.cntsec p{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #DDE6ED;
+}
+.cntsec p1{
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #DDE6ED;
+    text-decoration: underline;
+}
+
+.socials{
+    text-align: center;
+    margin-left: 400px;
+}
